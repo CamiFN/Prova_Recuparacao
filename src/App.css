@@ -65,3 +65,35 @@ button {
   color:#4b889d;
   border-color: #4b889d;
 }
+.Icones{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 600px;
+  margin: 0 auto;
+}
+.apps{
+  align-items: center;
+  background-color: #fff;
+  border:0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 4px;
+  width: 125px;
+}
+.apps:hover{
+  background-color: #e4e4e4;
+  text-decoration:dotted;
+}
+img{
+  margin-top: 20px;
+  border: 1px solid rgba(226, 224, 224, 0);
+  border-radius: 30px;
+  width:30px;
+}
+
+.nome{
+  font-size: 15px;
+}
