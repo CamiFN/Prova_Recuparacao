@@ -1,26 +1,33 @@
-.butãos{
-    margin-top: 20px;
-    margin-left: 295px;
-  }
-.btn{
-    background-color: #fff;
-    border:1px solid rgb(228, 228, 228);
-    color: #000;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-right: 75px;
-    border-radius: 3px;
+.Icones{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 600px;
+  margin: 0 auto;
+}
+.apps{
+  align-items: center;
+  background-color: #fff;
+  border:0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 4px;
+  width: 125px;
+}
+.apps:hover{
+  background-color: #e4e4e4;
+  text-decoration:dotted;
+}
+img{
+  margin-top: 20px;
+  border: 0px solid rgba(226, 224, 224, 0);
+  border-radius: 0px;
+  width:30px;
 }
 
-.btn:hover{
-    background-color: #0085a1;
-    border-color:#0085a1;
-    color: #fff;
-}
-.titulo{
-    font-size: 20px;
-    font-weight: bold;
-  }
-.descrição{
-    font-size: 20px;
+.nome{
+  font-size: 15px;
+  font-family:'Courier New', Courier, monospace ;
 }

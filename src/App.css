@@ -41,30 +41,6 @@
 button {
   font-size: calc(10px + 2vmin);
 }
-.palavras{
-  margin-top: 5%;
-  margin-left: 15%;
-  margin-right: 15%;
-  display: flex;
-  flex-wrap: wrap;
-}
-.caixa{
-  padding: 15px;
-  padding-top: 3px;
-  padding-bottom: 6px;
-  font-size: 20px;
-  background-color: #fff;
-  border-style: solid;
-  border-color: #c2c2c2;
-  border-radius: 30px;
-  color: #c2c2c2;
-  display: flex;
-  margin: 5px;
-}
-.caixa:hover{
-  color:#4b889d;
-  border-color: #4b889d;
-}
 .Icones{
   display: flex;
   flex-wrap: wrap;
@@ -89,11 +65,12 @@ button {
 }
 img{
   margin-top: 20px;
-  border: 1px solid rgba(226, 224, 224, 0);
-  border-radius: 30px;
+  border: 0px solid rgba(226, 224, 224, 0);
+  border-radius: 0px;
   width:30px;
 }
 
 .nome{
   font-size: 15px;
+  font-family:'Courier New', Courier, monospace ;
 }
