@@ -7,6 +7,8 @@ function Button({link, nome, descricao, QTD, preco}){
               <p className='QTD'>{QTD}</p>
               <p className='preco'>{preco}</p>
         </button>
+
+        
     );
 }
 

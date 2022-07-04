@@ -6,11 +6,6 @@ import Button from "./Button";
 function App(){
   const [selecionado, setSelecionado] = useState(false);
 
-  function mudaIcones() {
-      setSelecionado(!selecionado);
-      console.log(selecionado);
-  }
-
   const icones = [
     {
       link: "big-king.webp",
@@ -46,16 +41,18 @@ function App(){
 
   return(
       <div className="Icones">
-        {icones.map((icone) => {
-          return 
-          <Button 
-          link={icone.link} 
-          nome={icone.nome}
-          descricao={icone.descricao}
-          QTD={icone.QTD}
-          preco={icone.preco}
-           />
-        })}
+        <List/>
+        {
+          icones.map((icone)=>{
+            return <Button 
+            link={icone.link} 
+            nome={icone.nome}
+            descricao={icone.descricao}
+            QTD={icone.QTD}
+            preco={icone.preco}
+             />
+          })
+        }
       </div>
   );
 }

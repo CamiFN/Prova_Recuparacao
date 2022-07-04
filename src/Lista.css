@@ -1,7 +1,7 @@
-.conatiner{
+.container{
     display: flex;
 }
-.noticia{
+.lista{
     width: 320px;
     border-top: solid 1px;
     color:brown;
@@ -15,7 +15,7 @@
     padding-bottom: 20px;
     padding-bottom: 10px;  
 }
-.numero{
+.button{
     padding: 15px;
     padding-top: 17px;
     padding-bottom: 11px;

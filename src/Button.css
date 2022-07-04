@@ -2,31 +2,34 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 600px;
+  width: 100%;
   margin: 0 auto;
+    margin-top: 10px;
 }
 .apps{
-  align-items: center;
-  background-color: #fff;
-  border:0px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  border-radius: 4px;
-  width: 125px;
-}
-.apps:hover{
-  background-color: #e4e4e4;
-  text-decoration:dotted;
+  color:rgb(48, 43, 40);
+  font-family: system-ui, -apple-system, 'Open Sans', sans-serif;
+  background-color: white;
+  border:1px solid rgb(218, 217, 217);
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  width: 230px;
 }
 img{
-  margin-top: 20px;
   border: 0px solid rgba(226, 224, 224, 0);
   border-radius: 0px;
-  width:30px;
+  width:210px;
 }
 
 .nome{
   font-size: 15px;
+  font-weight: bolder;
+}
+.QTD{
+  font-weight: bolder;
+}
+.preco{
+  font-weight: bolder;
 }
