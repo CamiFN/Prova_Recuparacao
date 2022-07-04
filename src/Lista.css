@@ -1,0 +1,24 @@
+.conatiner{
+    display: flex;
+}
+.noticia{
+    width: 320px;
+    border-top: solid 1px;
+    color:brown;
+    border-color: rgb(112, 112, 112);
+    display: flex;
+    margin: 0px;
+    margin-left: 245px;
+    margin-top: 4%;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-bottom: 10px;  
+}
+.numero{
+    padding: 15px;
+    padding-top: 17px;
+    padding-bottom: 11px;
+    color: gray;
+    font-size: 25px;
+}

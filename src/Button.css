@@ -1,0 +1,26 @@
+.butãos{
+    margin-top: 20px;
+    margin-left: 295px;
+  }
+.btn{
+    background-color: #fff;
+    border:1px solid rgb(228, 228, 228);
+    color: #000;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 75px;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    background-color: #0085a1;
+    border-color:#0085a1;
+    color: #fff;
+}
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+  }
+.descrição{
+    font-size: 20px;
+}
