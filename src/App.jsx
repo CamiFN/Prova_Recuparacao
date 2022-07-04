@@ -2,9 +2,34 @@
 import { useState } from 'react';
 import './Button.css'
 import Button from "./Button";
+import './Lista.css'
 
 function App(){
   const [selecionado, setSelecionado] = useState(false);
+
+  const paginas = [
+		{
+			foto: "logo.svg"
+		},
+		{
+			nome: "Entregador",
+		},
+		{
+			nome: "Restaurante e Mercado",
+		},
+		{
+			nome: "Carreiras",
+		},
+		{
+			nome: "iFood Card",
+		},
+		{
+			nome1: "Criar conta",
+		},
+		{
+			nome2: "Entrar"
+		}
+	];
 
   const icones = [
     {
@@ -40,8 +65,22 @@ function App(){
   ]
 
   return(
+    <div>
+    <div className="conteiner">
+			
+			{
+				paginas.map((pag) => {
+					return <Card 
+							nome={pag.nome}
+							foto={pag.foto}
+							butao1={pag.nome1}
+							butao2={pag.nome2}
+						/>;
+				})
+			}
+		</div>
+
       <div className="Icones">
-        <List/>
         {
           icones.map((icone)=>{
             return <Button 
@@ -53,6 +92,7 @@ function App(){
              />
           })
         }
+      </div>
       </div>
   );
 }
