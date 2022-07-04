@@ -8,7 +8,7 @@ function App(){
 
   const paginas = [
 		{
-			link: "logo.svg"
+			imag: "logo.svg"
 		},
 		{
 			lista: "Entregador",
@@ -68,7 +68,7 @@ function App(){
     <div className="conteiner">
 			{
 				paginas.map((pag) => {
-					return <Card 
+					return <Button
 							nome={pag.nome}
 							link={pag.link}
 							butao1={pag.buta1}
@@ -82,7 +82,7 @@ function App(){
         {
           icones.map((icone)=>{
             return <Button 
-            link={icone.link} 
+            imag={icone.imag} 
             nome={icone.nome}
             descricao={icone.descricao}
             QTD={icone.QTD}

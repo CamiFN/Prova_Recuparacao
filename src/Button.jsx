@@ -1,4 +1,4 @@
-function Button({link, nome, descricao, QTD, preco, lista, butao1, butao2}){
+function Button({link, nome, descricao, QTD, preco,imag, lista, butao1, butao2}){
     return(
         <div className="itens">
 
@@ -11,7 +11,7 @@ function Button({link, nome, descricao, QTD, preco, lista, butao1, butao2}){
         </button>
 
         <button className='menu'>
-        <img src={link} alt="" />
+        <img src={imag} alt="" />
         <p className='nome'>{lista}</p>
         <p className='butao'>{butao1}</p>
         <p className='buao'>{butao2}</p>
