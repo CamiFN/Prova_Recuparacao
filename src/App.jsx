@@ -1,6 +1,6 @@
 //App.jsx
 import { useState } from 'react';
-import './App.css'
+import './Button.css'
 import Button from "./Button";
 
 function App(){
