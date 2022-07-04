@@ -1,7 +1,7 @@
 .container{
     display: flex;
 }
-.lista{
+.nome{
     width: 320px;
     border-top: solid 1px;
     color:brown;
@@ -15,7 +15,14 @@
     padding-bottom: 20px;
     padding-bottom: 10px;  
 }
-.button{
+.butao1{
+    padding: 15px;
+    padding-top: 17px;
+    padding-bottom: 11px;
+    color: gray;
+    font-size: 25px;
+}
+.butao2{
     padding: 15px;
     padding-top: 17px;
     padding-bottom: 11px;

@@ -67,7 +67,6 @@ function App(){
   return(
     <div>
     <div className="conteiner">
-			
 			{
 				paginas.map((pag) => {
 					return <Card 
