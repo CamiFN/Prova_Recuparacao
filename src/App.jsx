@@ -5,11 +5,10 @@ import Button from "./Button";
 import './Lista.css'
 
 function App(){
-  const [selecionado, setSelecionado] = useState(false);
 
   const paginas = [
 		{
-			foto: "logo.svg"
+			link: "logo.svg"
 		},
 		{
 			nome: "Entregador",
@@ -24,10 +23,10 @@ function App(){
 			nome: "iFood Card",
 		},
 		{
-			nome1: "Criar conta",
+			butao1: "Criar conta",
 		},
 		{
-			nome2: "Entrar"
+			butao2: "Entrar"
 		}
 	];
 
@@ -71,9 +70,9 @@ function App(){
 				paginas.map((pag) => {
 					return <Card 
 							nome={pag.nome}
-							foto={pag.foto}
-							butao1={pag.nome1}
-							butao2={pag.nome2}
+							link={pag.link}
+							butao1={pag.buta1}
+							butao2={pag.butao2}
 						/>;
 				})
 			}

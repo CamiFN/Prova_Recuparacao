@@ -1,5 +1,7 @@
-function Button({link, nome, descricao, QTD, preco}){
+function Button({link, nome, descricao, QTD, preco, butao1, butao2}){
     return(
+        <div className="itens">
+
         <button className='apps'>
               <img src={link} alt={nome} />
               <p className='nome'>{nome}</p>
@@ -8,6 +10,13 @@ function Button({link, nome, descricao, QTD, preco}){
               <p className='preco'>{preco}</p>
         </button>
 
+        <button className='menu'>
+        <img src={link} alt={nome} />
+        <p className='nome'>{nome}</p>
+        <p className='butao'>{butao1}</p>
+        <p className='buao'>{butao2}</p>
+  </button>
+        </div>
         
     );
 }
