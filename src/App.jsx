@@ -11,16 +11,16 @@ function App(){
 			link: "logo.svg"
 		},
 		{
-			nome: "Entregador",
+			lista: "Entregador",
 		},
 		{
-			nome: "Restaurante e Mercado",
+			lista: "Restaurante e Mercado",
 		},
 		{
-			nome: "Carreiras",
+			lista: "Carreiras",
 		},
 		{
-			nome: "iFood Card",
+			lista: "iFood Card",
 		},
 		{
 			butao1: "Criar conta",

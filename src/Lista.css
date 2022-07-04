@@ -1,7 +1,7 @@
 .container{
     display: flex;
 }
-.nome{
+.lista{
     width: 320px;
     border-top: solid 1px;
     color:brown;
