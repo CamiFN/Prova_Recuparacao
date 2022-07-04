@@ -1,29 +1,13 @@
-
-import { useState } from 'react';
-import './Button.css'
-
-
-function Button() {
-    const [selecionado, setSelecionado] = useState(false);
-
-    function mudaBotao() {
-        setSelecionado(!selecionado);
-        console.log(selecionado);
-    }
-
+function Button({link, nome, descricao, QTD, preco}){
     return(
-        <div className="butãos">
-            
-            <button className='btn'>
-                <p className='titulo'>PREVIOUS</p>
-                <p className='descrição'>JQUERY: DETECT UPDATE OF HTML <p>ELEMENT</p></p>
-            </button>    
-            
-            <button className='btn'>
-                <p className='titulo'>NEXT</p>
-                <p className='descrição'>RAILS + DEVISE WORKING WITH <p>MULTIPLE MODELS</p></p>
-            </button>
-        </div>
+        <button className='apps'>
+              <img src={link} alt={nome} />
+              <p className='nome'>{nome}</p>
+              <p className='descricao'>{descricao}</p>
+              <p className='QTD'>{QTD}</p>
+              <p className='preco'>{preco}</p>
+        </button>
     );
 }
+
 export default Button;
